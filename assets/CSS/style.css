@@ -5,13 +5,15 @@
 }
 
 /* Element Selectors*/
-body {
-    position: relative;
-    font-family:"Goudy Bookletter 1911", sans-serif;
-    font-size: 20px;    
-    background-color: #FFFFFF;
-}
+@media screen and (min-width: 768px){
+    body {
+        position: relative;
+        font-family:"Goudy Bookletter 1911", sans-serif;
+        font-size: 20px;    
+        background-color: #FFFFFF;
 
+    }
+}
 h1,
 h2 {
     margin: 20PX;
@@ -35,12 +37,12 @@ footer {
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: #706c6b
+    background-color: #706c6b;
+    position: fixed;
 
 }
 
 header {
-    position: fixed;
     text-align: left;
 
 }
