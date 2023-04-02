@@ -1,19 +1,21 @@
 /* Universal Selector */
-*{
+@media screen and (min-width: 768px) {
+  *{
     margin:0;
     padding:0;
+  }
 }
 
 /* Element Selectors*/
-@media screen and (min-width: 768px){
-    body {
-        position: relative;
-        font-family:"Goudy Bookletter 1911", sans-serif;
-        font-size: 20px;    
-        background-color: #FFFFFF;
+body {
+    position: relative;
+    font-family:"Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;    
+    background-color: #FFFFFF;
+    margin: auto;
 
-    }
 }
+
 h1,
 h2 {
     margin: 20PX;
