@@ -1,12 +1,3 @@
-/* Universal Selector */
-@media screen and (min-width: 768px) {
-  *{
-    margin: auto;
-    padding: 0;
-  }
-}
-
-/* Element Selectors*/
 body {
     position: relative;
     font-family:"Goudy Bookletter 1911", sans-serif;
@@ -19,6 +10,7 @@ body {
 h1,
 h2 {
     margin: auto;
+    position: relative;
 }
 
 main {
@@ -41,11 +33,13 @@ footer {
     line-height: 60px;
     background-color: #706c6b;
     position: fixed;
+    margin: auto;
 
 }
 
 header {
     text-align: left;
+    margin: auto;
 
 }
 
@@ -104,9 +98,22 @@ button {
 /* Class Selectors*/
 .text-center {
     text-align: center;
+    margin: auto;
 
 }
 
 .text-right {
     text-align: right;
+}
+@media screen and (max-width: 992px) {
+    #whole-body .text-right text-center {
+        width: 50%;
+        margin: auto;
+        text: 
+    }
+}
+@media screen and (mad-width: 768px) {
+    #whole-body {
+        width: 100%;
+    }
 }
