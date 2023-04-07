@@ -3,52 +3,31 @@ body {
     font-family:"Goudy Bookletter 1911", sans-serif;
     font-size: 20px;    
     background-color: #FFFFFF;
-    flex-wrap: wrap;
+    margin: 0;
+} 
 
+.links { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding-top: 20px;
+}
+    
+.links a {
+    color: white;
 }
 
-h1,
-h2 {
-    margin: auto;
-    position: relative;
-}
-
-main {
-    padding: 50px;
-}
-
-li {
-    display: inline;
-    padding: 0px 20px;
-}
-
-a{
-    color: #FFFFFF;
-}
-
-header,
-footer {
-    height: 60px;
-    width: 100%;
-    line-height: 60px;
-    background-color: #706c6b;
-    position: fixed;
-    margin: auto;
-
-}
 
 header {
-    text-align: left;
-    margin: auto;
-
+    height: 70px;
+    background-color: #706c6b;
 }
 
 footer {
-    margin-top: 0px;
-    bottom: 0;
-    border-bottom: 0px;
+    height: 70px;
     color: #FFFFFF;
-    margin: auto;
+    background-color: #706c6b;
 }
 
 img {
@@ -56,24 +35,19 @@ img {
     height: 400px;
     margin: 0px auto;
 }
+
 section {
-    margin-bottom: 20px;
-    padding: 20px 50px 40px 20px;
+
     border-top: 10px solid #706C6B;
     background-color: #FFFFFF;
 }
 
 form {
-    margin: 0 auto;
+    margin: auto;
     width: 500px;
-    padding: 5px;
+    margin-bottom: 30px;
     border: 5px solid #706C6B;
     border-radius: 20px;
-}
-
-label {
-    display: inline-block;
-    width: 100px;
 }
 
 input,
@@ -95,25 +69,28 @@ button {
     color: #FFFFFF
 }
 
-/* Class Selectors*/
+
 .text-center {
     text-align: center;
     margin: auto;
 
 }
-
-.text-right {
-    text-align: right;
+.text-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
 @media screen and (max-width: 992px) {
-    #whole-body .text-right text-center {
+    text-center {
         width: 50%;
         margin: auto;
         text: 
     }
 }
 @media screen and (mad-width: 768px) {
-    #whole-body {
+     {
         width: 100%;
     }
-}
+} */
